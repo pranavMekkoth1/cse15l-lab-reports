@@ -1,5 +1,8 @@
-#Heading 1 Pranav Mekkoth *Italic*
-**Bold**Dog
+# Heading 1 Pranav Mekkoth
+
+**Bold** Dog
+
+
 Hello World!
 Horizontal rule:
 ---
