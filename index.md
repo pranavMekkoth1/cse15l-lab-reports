@@ -1,6 +1,6 @@
 # Heading 1 Pranav Mekkoth
 
-**Bold** Dog
+ Dog
 
 
 Hello World!
