@@ -1,3 +1,3 @@
-Pranav Mekkoth
-Dog
+#Heading 1 Pranav Mekkoth *Italic*
+**Bold**Dog
 Hello World!
