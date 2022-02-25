@@ -44,7 +44,7 @@
 
   - Snippet expected result:
 
-  ![What snippet should produce](https://user-images.githubusercontent.com/97641097/155677832-d9adc252-04e1-4ede-8b97-761b2d3bb256.png)
+  ![What snippet should produce](https://user-images.githubusercontent.com/97641097/155782161-4b8196f0-b262-4b09-b1a2-3eb01b9af26e.png)
 
   - Test:
    
@@ -56,5 +56,13 @@
   - Reviewed MakdownParse output:
  
    ![image](https://user-images.githubusercontent.com/97641097/155678444-058a085c-5608-44fd-aa43-c95c0f5f54a0.png)
-   
+    
+ **Lab Report Questions**
+ 
+ - For snippet 1 shown in the lab report instructions, I do believe that there is a way to create a general fix that can be applied to the markdownParse.java file. I think that one way to solve it is by writing an if statement within the while loop of the getlinks method that only determines if it is a link if there is no character prior to the first open bracket and if there is an open bracket and then a close braket immediatly preceding the open parentheses regardless of if there is a second open or close braket between the 2. You would also need an additional if statement to include the inline text immedeatly after link as link text.
+
+ - For snippet 2, I don't believe there is a relativley short way (<10 lines) to find a general fix that can be applied to fix the error. After applying the fix mentioned in the previous bullet point (to only read outer brackets), you would then need a condition that only reads the outermost parentheses as being the actual link. Then, you would also need a have to have a seperate if loop to check if an imbedded links (in its entirirty) is within a set of brackets (if so, only read the embedded link as a link). I beleive that putting all these conditions into markdownParse would exceed the 10 line limit. 
+
+ - For snippet 3, I believe that a relativley short fix is possible. 
+
  
